@@ -30,6 +30,7 @@ const CreateArea = (props) => {
       content: ""
     });
     event.preventDefault();
+    setExpanded(false)
   }
 
   const expand = () => {
